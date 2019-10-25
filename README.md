@@ -1,5 +1,5 @@
 # YA-SVG-JS-C
-## Yet Another SVG+Javascript Clock
+## Yet Another SVG+JavaScript Clock
 
 This interactive document is a SVG live clock inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.\
 See <https://www.sbb.ch/>.
@@ -10,9 +10,9 @@ See <https://bboxtype.com/typefaces/FiraSans/>.
 In its first original version, the hand colors are chosen according the the RGB canonical color scheme. It is a mnemonic: Red for seconds, Green for minutes and Blue for hours. Then, **Solarized-theme** light and dark versions were created.\
 See <https://ethanschoonover.com/solarized/>
 
-A javascript dynamical simulation is running in order to animate the clock hands. **Click** on the hands to perturb them. **Ctrl+click** changes the direction of the perturbation. **Shift+click** increases the perturbation impulse amplitude. **Ctrl** and **Shift** can be combined.
+A JavaScript dynamical simulation is running in order to animate the clock hands. **Click** on the hands to perturb them. **Ctrl+click** changes the direction of the perturbation. **Shift+click** increases the perturbation impulse amplitude. **Ctrl** and **Shift** can be combined.
 
-The script **engine_script.js** on which the dynamical simulation is based uses **Math.js** (version 6.2.3).\
+The script **engine_script.js** on which the dynamical simulation is based uses **Math.js** (version 6.2.3), mainly because of various matrix operations not natively available with JavaScript.\
 See <http://mathjs.org/>
 
 ***Original (YA-SVG-JS-C)***
