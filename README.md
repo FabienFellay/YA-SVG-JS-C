@@ -11,6 +11,10 @@ A javascript dynamical simulation is running in order to animate the clock hands
 
 The script **engine_script.js** on which the dynamical simulation is based uses **Math.js** (version 6.2.3): <http://mathjs.org/>
 
+<script xlink:href="math.min.js" id="library" type="text/javascript" />
+<script xlink:href="options_continuous.js" id="options" type="text/javascript" />
+<script xlink:href="engine_script.js" id="engine" type="text/javascript" />
+
 ***Original (YA-SVG-JS-C)***
 ![Original YA-SVG-JS-C](/YA_SVG_JS_C.svg)
 
