@@ -12,19 +12,19 @@ A javascript dynamical simulation is running in order to animate the clock hands
 The script **engine_script.js** on which the dynamical simulation is based uses **Math.js** (version 6.2.3): <http://mathjs.org/>
 
 ***Original (YA-SVG-JS-C)***
-![Original YA-SVG-JS-C](YA_SVG_JS_C.svg)
+![Original YA-SVG-JS-C](/YA_SVG_JS_C.svg)
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
-![Solarized Light YA-SVG-JS-C-SL](YA_SVG_JS_C_SL.svg)
+![Solarized Light YA-SVG-JS-C-SL](/YA_SVG_JS_C_SL.svg)
 
 ***Solarized Dark (YA-SVG-JS-C-SD)***
-![Solarized Light YA-SVG-JS-C-SD](YA_SVG_JS_C_SD.svg)
+![Solarized Light YA-SVG-JS-C-SD](/YA_SVG_JS_C_SD.svg)
 
-04.10.2017: Initial Design
+* 04.10.2017: Initial Design
 
-06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues)
+* 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues)
 
-02.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal). Typos corrected in the engine script and adaptation to the latest **math.js** version. **Solarized-theme** versions introduced. Migration to **GitHub**.
+* 02.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal). Typos corrected in the engine script and adaptation to the latest **math.js** version. **Solarized-theme** versions introduced. Migration to **GitHub**.
 
 Copyright (C) 2017-2019 by Fabien Fellay
 
@@ -37,5 +37,3 @@ The SVG artworks are licensed under the Creative Commons Attribution-ShareAlike 
 
 The math.js library is licensed under the Apache License 2.0.
 <https://www.apache.org/licenses/>
-
-Created By Fabien Fellay, 2017-2019
