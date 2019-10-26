@@ -1,7 +1,7 @@
 # YA-SVG-JS-C
 ## Yet Another SVG+JavaScript Clock
 
-The files **YA_SVG_JS_C.svg**, **YA_SVG_JS_C_SL.svg** and **YA_SVG_JS_C_SD.svg** interactive documents are some SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.\
+The files **YA_SVG_JS_C.svg**, **YA_SVG_JS_C_SL.svg** and **YA_SVG_JS_C_SD.svg** are some interactive SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.\
 See <https://www.sbb.ch/>.
 
 Those documents also feature vectorized portions of the free and open source font **Fira Sans** (light weight used).\
