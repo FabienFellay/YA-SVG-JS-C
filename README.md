@@ -16,10 +16,13 @@ Note that the script **engine_script.js** on which the dynamical simulation is b
 See <http://mathjs.org/>
 
 ***Original (YA-SVG-JS-C)***
-![Original YA-SVG-JS-C](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg)
+<embed src="https://fabienfellay.github.io/YA_SVG_JS_C.svg" type="image/svg+xml" name="Original YA-SVG-JS-C" height="800" width="800" wmode="transparent" alt="YA-SVG-JS-C">
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
-![Solarized Light YA-SVG-JS-C-SL](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg)
+<div style="text-align: center;">
+<object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg" height="650" width="650" type="image/svg+xml">
+</object>
+</div>
 
 ***Solarized Dark (YA-SVG-JS-C-SD)***
 ![Solarized Light YA-SVG-JS-C-SD](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg)
