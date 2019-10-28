@@ -79,10 +79,10 @@ In addition, the following simple html files are only provided as examples on ho
 
 - 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues)
 
-- 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title 'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the latest **Math.js** version. **Solarized-theme** versions introduced. Define separate options files for different dynamics. Modify svg dimensions to % unit and add the viewbox property in order to allow re-scalable
+- 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title 'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the latest **Math.js** version. **Solarized-theme** versions introduced. Define separate options files for different dynamics. Modify SVG dimensions to % unit and add the viewbox property in order to allow re-scalable
 svg (with active script) in html. Migration to **GitHub**.
 
-Old website  
+Old website (old version)  
 [https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
 ---
