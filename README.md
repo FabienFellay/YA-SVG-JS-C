@@ -34,7 +34,6 @@ See <http://mathjs.org/>
 <https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C_SL.svg>
 
 ***Solarized Dark (YA-SVG-JS-C-SD)***
-![](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg)
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_DL.svg" height="650" width="650" type="image/svg+xml">
 </object>
