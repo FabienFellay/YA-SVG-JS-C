@@ -49,7 +49,7 @@ See <http://mathjs.org/>
 
 ### How to use
 ---
-First, download files the following common files (right-click and _save as_ is OK):
+First, download the following common files (right-click and _save as_ is OK):
 
 [math.min.js](math.min.js)  
 [engine_script.js](engine_script.js)
