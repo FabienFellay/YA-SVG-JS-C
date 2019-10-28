@@ -1,6 +1,8 @@
 # YA-SVG-JS-C
 ## Yet Another SVG+JavaScript Clock
 
+![Main YA-SVG-JS-C](/docs/YA_SVG_JS_C.png)
+
 The files **YA_SVG_JS_C.svg**, **YA_SVG_JS_C_SL.svg** and **YA_SVG_JS_C_SD.svg** are some interactive SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.  
 See <https://www.sbb.ch/>.
 
@@ -17,18 +19,28 @@ See <http://mathjs.org/>
 
 ***Original (YA-SVG-JS-C)***
 <div style="text-align: center;">
-<embed src="https://fabienfellay.github.io/YA_SVG_JS_C.svg" type="image/svg+xml" name="Original YA-SVG-JS-C" height="800" width="800" wmode="transparent" alt="YA-SVG-JS-C">
+<object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg" height="650" width="650" type="image/svg+xml">
+</object>
 </div>
+
+<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C.svg>
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg" height="650" width="650" type="image/svg+xml">
-Solarized Light YA-SVG-JS-C-SL
 </object>
 </div>
 
+<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C_SL.svg>
+
 ***Solarized Dark (YA-SVG-JS-C-SD)***
-![Solarized Light YA-SVG-JS-C-SD](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg)
+![](https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg)
+<div style="text-align: center;">
+<object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_DL.svg" height="650" width="650" type="image/svg+xml">
+</object>
+</div>
+
+<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C_SD.svg>
 
 - 04.10.2017: Initial Design
 
