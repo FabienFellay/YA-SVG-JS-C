@@ -23,7 +23,7 @@ See <http://mathjs.org/>
 ***Solarized Light (YA-SVG-JS-C-SL)***
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg" height="650" width="650" type="image/svg+xml">
-Original YA-SVG-JS-C
+Solarized Light YA-SVG-JS-C-SL
 </object>
 </div>
 
