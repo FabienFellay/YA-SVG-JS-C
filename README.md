@@ -23,7 +23,7 @@ See <http://mathjs.org/>
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C.svg>
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg>
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
 <div style="text-align: center;">
@@ -31,15 +31,15 @@ See <http://mathjs.org/>
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C_SL.svg>
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg>
 
 ***Solarized Dark (YA-SVG-JS-C-SD)***
 <div style="text-align: center;">
-<object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_DL.svg" height="650" width="650" type="image/svg+xml">
+<object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg" height="650" width="650" type="image/svg+xml">
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C//YA_SVG_JS_C_SD.svg>
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg>
 
 - 04.10.2017: Initial Design
 
