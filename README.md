@@ -16,7 +16,9 @@ Note that the script **engine_script.js** on which the dynamical simulation is b
 See <http://mathjs.org/>
 
 ***Original (YA-SVG-JS-C)***
+<div style="text-align: center;">
 <embed src="https://fabienfellay.github.io/YA_SVG_JS_C.svg" type="image/svg+xml" name="Original YA-SVG-JS-C" height="800" width="800" wmode="transparent" alt="YA-SVG-JS-C">
+</div>
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
 <div style="text-align: center;">
