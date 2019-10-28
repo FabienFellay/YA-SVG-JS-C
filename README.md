@@ -1,8 +1,11 @@
 # YA-SVG-JS-C
 ## Yet Another SVG+JavaScript Clock
 
+<https://fabienfellay.github.io/YA-SVG-JS-C/>
+
 ![Main YA-SVG-JS-C](/docs/YA_SVG_JS_C.png)
 
+### Description
 The files **YA_SVG_JS_C.svg**, **YA_SVG_JS_C_SL.svg** and **YA_SVG_JS_C_SD.svg** are some interactive SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.  
 See <https://www.sbb.ch/>.
 
@@ -17,6 +20,7 @@ A JavaScript dynamical simulation (file **engine_script.js**) is running in orde
 Note that the script **engine_script.js** on which the dynamical simulation is based uses **Math.js** (version 6.2.3), mainly because of various matrix operations not natively available with JavaScript (file **math.min.js**).  
 See <http://mathjs.org/>
 
+### Interactive Clocks
 ***Original (YA-SVG-JS-C)***
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg" height="650" width="650" type="image/svg+xml">
@@ -41,11 +45,15 @@ See <http://mathjs.org/>
 
 <https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg>
 
+### History
 - 04.10.2017: Initial Design
 
 - 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues)
 
 - 02.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal). Typos corrected in the engine script and adaptation to the latest **math.js** version. **Solarized-theme** versions introduced. Migration to **GitHub**.
+
+Old website  
+[https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
 *Copyright (C) 2017-2019 by Fabien Fellay*
 
