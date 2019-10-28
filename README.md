@@ -1,6 +1,9 @@
 # YA-SVG-JS-C
 ## Yet Another SVG+JavaScript Clock
 
+![GitHub top language](https://img.shields.io/github/languages/top/FabienFellay/YA-SVG-JS-C)
+![GitHub](https://img.shields.io/github/license/FabienFellay/YA-SVG-JS-C)
+
 <https://fabienfellay.github.io/YA-SVG-JS-C/>
 
 ![Main YA-SVG-JS-C](/docs/YA_SVG_JS_C.png)
