@@ -6,6 +6,7 @@
 ![Main YA-SVG-JS-C](/docs/YA_SVG_JS_C.png)
 
 ### Description
+---
 The files **YA_SVG_JS_C.svg**, **YA_SVG_JS_C_SL.svg** and **YA_SVG_JS_C_SD.svg** are some interactive SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.  
 See <https://www.sbb.ch/>.
 
@@ -21,6 +22,7 @@ Note that the script **engine_script.js** on which the dynamical simulation is b
 See <http://mathjs.org/>
 
 ### Interactive Clocks
+---
 ***Original (YA-SVG-JS-C)***
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg" height="650" width="650" type="image/svg+xml">
@@ -45,16 +47,45 @@ See <http://mathjs.org/>
 
 <https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg>
 
+### How to use
+---
+Download files (right-click 'save as' is OK):
+
+[math.min.js](math.min.js)  
+[engine_script.js](engine_script.js)
+
+Then, for the original and Solarized Light versions, download files (a continuous sweeping dynamic has been chosen for those versions):
+
+[options_continuous.js](options_continuous.js)  
+[YA_SVG_JS_C.svg](YA_SVG_JS_C.svg)  
+[YA_SVG_JS_C_SL.svg](YA_SVG_JS_C_SL.svg)
+
+Finally, assuming all the later files are in the same folder, simply open the SVG files directly with a modern browser (Firefox, Chrome, ...) and the interactive clocks should be displayed and running fine.
+
+For the Solarized Dark versions, the same principle applies but use the following files instead (a stepping dynamic has been chosen for this version):
+
+[options_stepping.js](options_stepping.js)  
+[YA_SVG_JS_C_SD.svg](YA_SVG_JS_C_SD.svg)
+
+In addition, the following simple html files are only provided as examples on how to embed the interactive SVG clocks directly in some html pages:
+
+[YA_SVG_JS_C.html](YA_SVG_JS_C.html)  
+[YA_SVG_JS_C_SL.html](YA_SVG_JS_C_SL.html)  
+[YA_SVG_JS_C_SLD.html](YA_SVG_JS_C_SLD.html)
+
 ### History
+---
 - 04.10.2017: Initial Design
 
 - 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues)
 
-- 02.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal). Typos corrected in the engine script and adaptation to the latest **math.js** version. **Solarized-theme** versions introduced. Migration to **GitHub**.
+- 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title 'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the latest **math.js** version. **Solarized-theme** versions introduced. Define separate options files for different dynamics. Modify svg dimensions to % unit and add the viewbox property in order to allow re-scalable
+svg (with active script) in html. Migration to **GitHub**.
 
 Old website  
 [https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
+---
 *Copyright (C) 2017-2019 by Fabien Fellay*
 
 The script **engine_script.js** along with its parameters files **options_continuous.js** and **options_stepping.js** are licensed under the GNU General Public License version 3 (GPL-3.0).  
