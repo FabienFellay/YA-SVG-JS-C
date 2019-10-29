@@ -89,7 +89,7 @@ Old website (old version)
 [https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
 ---
-*Copyright (C) 2017-2019 by Fabien Fellay*
+*Copyright &copy; 2017-2019 Fabien Fellay.*
 
 The script [engine_script.js](engine_script.js) along with its parameters files [options_continuous.js](options_continuous.js) and [options_stepping.js](options_stepping.js) are licensed under the GNU General Public License version 3 (GPL-3.0).  
 <https://opensource.org/licenses/GPL-3.0>  
