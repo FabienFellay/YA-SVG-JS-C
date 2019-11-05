@@ -24,7 +24,7 @@ A JavaScript dynamical simulation (file [engine_script.js](engine_script.js)) is
 Note that the script [engine_script.js](engine_script.js) on which the dynamical simulation is based uses **Math.js** (version 6.2.3), mainly because of various matrix operations not natively available with JavaScript (file [math.min.js](math.min.js)).  
 See <https://mathjs.org/>
 
-The SVG artworks themselves were designed using the free and open source vector graphics editor **Inkscape** (version 0.92.4).
+The SVG artworks themselves were designed using the free and open source vector graphics editor **Inkscape** (version 0.92.4).  
 See <https://inkscape.org/>
 
 ### Interactive clocks
