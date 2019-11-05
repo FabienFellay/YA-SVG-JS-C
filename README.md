@@ -22,59 +22,66 @@ See <https://ethanschoonover.com/solarized/>
 A JavaScript dynamical simulation (file [engine_script.js](engine_script.js)) is running in order to animate the clock hands. **Click** on the hands to perturb them. **Ctrl+click** changes the direction of the perturbation. **Shift+click** increases the perturbation impulse amplitude. **Ctrl** and **Shift** can be combined. Files [options_continuous.js](options_continuous.js) and [options_stepping.js](options_stepping.js) are parameters files storing information about different dynamics behaviors.
 
 Note that the script [engine_script.js](engine_script.js) on which the dynamical simulation is based uses **Math.js** (version 6.2.3), mainly because of various matrix operations not natively available with JavaScript (file [math.min.js](math.min.js)).  
-See <http://mathjs.org/>
+See <https://mathjs.org/>
 
-### Interactive Clocks
+The SVG artworks themselves were designed using the free and open source vector graphics editor **Inkscape** (version 0.92.4).
+See <https://inkscape.org/>
+
+### Interactive clocks
 ---
 ***Original (YA-SVG-JS-C)***
+
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg>
+
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg" height="650" width="650" type="image/svg+xml">
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C.svg>
-
 ***Solarized Light (YA-SVG-JS-C-SL)***
+
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg>
+
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg" height="650" width="650" type="image/svg+xml">
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SL.svg>
-
 ***Solarized Dark (YA-SVG-JS-C-SD)***
+
+<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg>
+
 <div style="text-align: center;">
 <object data="https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg" height="650" width="650" type="image/svg+xml">
 </object>
 </div>
 
-<https://fabienfellay.github.io/YA-SVG-JS-C/YA_SVG_JS_C_SD.svg>
-
 ### How to use
 ---
 First, download the following common files (right-click and _save as_ is OK):
 
-[math.min.js](math.min.js)  
-[engine_script.js](engine_script.js)
+- [math.min.js](math.min.js)  
+- [engine_script.js](engine_script.js)
 
 Then, for the original and Solarized Light versions, download files (a continuous sweeping dynamic has been chosen for those versions):
 
-[options_continuous.js](options_continuous.js)  
-[YA_SVG_JS_C.svg](YA_SVG_JS_C.svg)  
-[YA_SVG_JS_C_SL.svg](YA_SVG_JS_C_SL.svg)
+- [options_continuous.js](options_continuous.js)  
+- [YA_SVG_JS_C.svg](YA_SVG_JS_C.svg)  
+- [YA_SVG_JS_C_SL.svg](YA_SVG_JS_C_SL.svg)
 
 Finally, assuming all the later files are in the same folder, simply open the SVG files directly with a modern browser (Firefox, Chrome, ...) and the interactive clocks should be displayed and running fine.
 
-For the Solarized Dark versions, the same principle applies but use the following files instead (a stepping dynamic has been chosen for this version):
+For the Solarized Dark version, the same principle applies but use the following files instead (a stepping dynamic has been chosen for this version):
 
-[options_stepping.js](options_stepping.js)  
-[YA_SVG_JS_C_SD.svg](YA_SVG_JS_C_SD.svg)
+- [options_stepping.js](options_stepping.js)  
+- [YA_SVG_JS_C_SD.svg](YA_SVG_JS_C_SD.svg)
 
 In addition, the following simple html files are only provided as examples on how to embed the interactive SVG clocks directly in some html pages:
 
-[YA_SVG_JS_C.html](YA_SVG_JS_C.html)  
-[YA_SVG_JS_C_SL.html](YA_SVG_JS_C_SL.html)  
-[YA_SVG_JS_C_SLD.html](YA_SVG_JS_C_SLD.html)
+- [YA_SVG_JS_C.html](YA_SVG_JS_C.html)  
+- [YA_SVG_JS_C_SL.html](YA_SVG_JS_C_SL.html)  
+- [YA_SVG_JS_C_SD.html](YA_SVG_JS_C_SD.html)  
+- [YA_SVG_JS_C_SLD.html](YA_SVG_JS_C_SLD.html)
 
 ### History
 ---
@@ -85,7 +92,7 @@ In addition, the following simple html files are only provided as examples on ho
 - 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title 'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the latest **Math.js** version. **Solarized-theme** versions introduced. Define separate options files for different dynamics. Modify SVG dimensions to % unit and add the viewbox property in order to allow re-scalable
 svg (with active script) in html. Migration to **GitHub**.
 
-Old website (old version)  
+Old version website  
 [https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
 ---
