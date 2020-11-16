@@ -132,8 +132,8 @@ function Start(load_event) { // The load_event can be used in case of need
     sim.dyna.hour = new SSM(M_hour,c_hour,k_hour,T,'hour hand',sim.options);
 
     // Options: perturbations
-    sim.options.pertubation_low = impulse_low/T; // [N] Small perturbation force value (during time T)
-    sim.options.pertubation_high = impulse_high/T; // [N] Large perturbation force value (during time T)
+    sim.options.perturbation_low = impulse_low/T; // [N] Small perturbation force value (during time T)
+    sim.options.perturbation_high = impulse_high/T; // [N] Large perturbation force value (during time T)
 
     // Prepare the perturbation events
     sim.display.cover = document.getElementById('cover');
@@ -327,9 +327,9 @@ function SimStep(sim) {
 // The perturbation function....................................................
 function Perturbation(click_event,SSM,Options) {
 
-    var perturbation_value = Options.pertubation_low;
+    var perturbation_value = Options.perturbation_low;
     if (click_event.shiftKey) {
-        perturbation_value = Options.pertubation_high;
+        perturbation_value = Options.perturbation_high;
     }
 
     if ((click_event.ctrlKey) || (click_event.metaKey)) {
