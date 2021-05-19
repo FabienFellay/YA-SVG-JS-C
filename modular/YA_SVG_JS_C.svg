@@ -22,7 +22,7 @@
    inkscape:output_extension="org.inkscape.output.svg.inkscape"
    style="overflow:visible">
   <script
-     xlink:href="math.min.js"
+     xlink:href="math.js"
      id="library"
      type="text/javascript" />
   <script
