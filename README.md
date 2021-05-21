@@ -10,21 +10,34 @@
 
 ### Description
 ---
-The files [YA_SVG_JS_C.svg](./modular/YA_SVG_JS_C.svg), [YA_SVG_JS_C_SL.svg](./modular/YA_SVG_JS_C_SL.svg) and [YA_SVG_JS_C_SD.svg](./modular/YA_SVG_JS_C_SD.svg) are some interactive SVG live clocks inspired (though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.  
+The files [YA_SVG_JS_C.svg](./modular/YA_SVG_JS_C.svg), [YA_SVG_JS_C_SL.svg](./modular/YA_SVG_JS_C_SL.svg)
+and [YA_SVG_JS_C_SD.svg](./modular/YA_SVG_JS_C_SD.svg) are some interactive SVG live clocks inspired
+(though different) by the Swiss Railway (**SBB CFF FFS**) iconic station clock by Hans Hilfiker.<br>
 See <https://www.sbb.ch/>.
 
-Those documents also feature vectorized portions of the free and open source font **Fira Sans** (light weight used).  
+Those documents also feature vectorized portions of the free and open source font **Fira Sans**
+(light weight used).<br>
 See <https://bboxtype.com/typefaces/FiraSans/>.
 
-In its first original version, the hand colors are chosen according the the RGB canonical color scheme. It is a mnemonic: Red for seconds, Green for minutes and Blue for hours. Then, **Solarized-theme** light and dark versions were created in addition.  
+In its first original version, the hand colors are chosen according the the RGB canonical color scheme.
+It is a mnemonic: Red for seconds, Green for minutes and Blue for hours. Then, **Solarized-theme**
+light and dark versions were created in addition.<br>
 See <https://ethanschoonover.com/solarized/>
 
-A JavaScript dynamical simulation (file [engine_script.js](./modular/engine_script.js)) is running in order to animate the clock hands. **Click** on the hands to perturb them. **Ctrl+click** changes the direction of the perturbation. **Shift+click** increases the perturbation impulse amplitude. **Ctrl** and **Shift** can be combined. Files [options_continuous.js](./modular/options_continuous.js) and [options_stepping.js](./modular/options_stepping.js) are parameters files storing information about different dynamics behaviors.
+A JavaScript dynamical simulation (file [engine_script.js](./modular/engine_script.js)) is running
+in order to animate the clock hands. **Click** on the hands to perturb them. **Ctrl+click** changes
+the direction of the perturbation. **Shift+click** increases the perturbation impulse amplitude.
+**Ctrl** and **Shift** can be combined. Files [options_continuous.js](./modular/options_continuous.js)
+and [options_stepping.js](./modular/options_stepping.js) are parameters files storing information
+about different dynamics behaviors.
 
-Note that the script [engine_script.js](./modular/engine_script.js) on which the dynamical simulation is based uses **Math.js** (version 6.2.3), mainly because of various matrix operations not natively available with JavaScript (file [math.min.js](./modular/math.min.js)).  
+Note that the script [engine_script.js](./modular/engine_script.js) on which the dynamical simulation
+is based uses **Math.js**, mainly because of various matrix operations not natively available with
+JavaScript (file [math.js](./modular/math.js)).<br>
 See <https://mathjs.org/>
 
-The SVG artworks themselves were designed using the free and open source vector graphics editor **Inkscape** (version 0.92.4).  
+The SVG artworks themselves were designed using the free and open source vector graphics editor
+**Inkscape**.<br>
 See <https://inkscape.org/>
 
 ### Interactive clocks
@@ -34,8 +47,9 @@ See <https://inkscape.org/>
 <https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C.svg>
 
 <div style="text-align: center;">
-<object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C.svg" height="650" width="650" type="image/svg+xml">
-</object>
+  <object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C.svg"
+     height="650" width="650" type="image/svg+xml">
+  </object>
 </div>
 
 ***Solarized Light (YA-SVG-JS-C-SL)***
@@ -43,8 +57,9 @@ See <https://inkscape.org/>
 <https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SL.svg>
 
 <div style="text-align: center;">
-<object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SL.svg" height="650" width="650" type="image/svg+xml">
-</object>
+  <object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SL.svg"
+     height="650" width="650" type="image/svg+xml">
+  </object>
 </div>
 
 ***Solarized Dark (YA-SVG-JS-C-SD)***
@@ -52,66 +67,84 @@ See <https://inkscape.org/>
 <https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SD.svg>
 
 <div style="text-align: center;">
-<object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SD.svg" height="650" width="650" type="image/svg+xml">
-</object>
+  <object data="https://fabienfellay.github.io/YA-SVG-JS-C/modular/YA_SVG_JS_C_SD.svg"
+     height="650" width="650" type="image/svg+xml">
+  </object>
 </div>
 
 ### How to use
 ---
 First, download the following common files (right-click and _save as_ is OK):
 
-- [math.min.js](./modular/math.min.js)  
+- [math.js](./modular/math.js)<br>
 - [engine_script.js](./modular/engine_script.js)
 
-Then, for the original and Solarized Light versions, download files (a continuous sweeping dynamic has been chosen for those versions):
+Then, for the original and Solarized Light versions, download files (a continuous sweeping dynamic
+has been chosen for those versions):
 
-- [options_continuous.js](./modular/options_continuous.js)  
-- [YA_SVG_JS_C.svg](./modular/YA_SVG_JS_C.svg)  
+- [options_continuous.js](./modular/options_continuous.js)<br>
+- [YA_SVG_JS_C.svg](./modular/YA_SVG_JS_C.svg)<br>
 - [YA_SVG_JS_C_SL.svg](./modular/YA_SVG_JS_C_SL.svg)
 
-Finally, assuming all the later files are in the same folder, simply open the SVG files directly with a modern browser (Firefox, Chrome, ...) and the interactive clocks should be displayed and running fine.
+Finally, assuming all the later files are in the same folder, simply open the SVG files directly
+with a modern browser (Firefox, Chrome, ...) and the interactive clocks should be displayed and
+running fine.
 
-For the Solarized Dark version, the same principle applies but use the following files instead (a stepping dynamic has been chosen for this version):
+For the Solarized Dark version, the same principle applies but use the following files instead
+(a stepping dynamic has been chosen for this version):
 
-- [options_stepping.js](./modular/options_stepping.js)  
+- [options_stepping.js](./modular/options_stepping.js)<br>
 - [YA_SVG_JS_C_SD.svg](./modular/YA_SVG_JS_C_SD.svg)
 
-In addition, the following simple html files are only provided as examples on how to embed the interactive SVG clocks directly in some html pages:
+In addition, the following simple html files are only provided as examples on how to embed the
+interactive SVG clocks directly in some html pages:
 
-- [YA_SVG_JS_C.html](./modular/YA_SVG_JS_C.html)  
-- [YA_SVG_JS_C_SL.html](./modular/YA_SVG_JS_C_SL.html)  
-- [YA_SVG_JS_C_SD.html](./modular/YA_SVG_JS_C_SD.html)  
+- [YA_SVG_JS_C.html](./modular/YA_SVG_JS_C.html)<br>
+- [YA_SVG_JS_C_SL.html](./modular/YA_SVG_JS_C_SL.html)<br>
+- [YA_SVG_JS_C_SD.html](./modular/YA_SVG_JS_C_SD.html)<br>
 - [YA_SVG_JS_C_SLD.html](./modular/YA_SVG_JS_C_SLD.html)
 
-Finally, for those who like all-in-one files, standalone versions are now available. All the needed scripts are embedded in single SVG files. Those are all you'll need to have running interactive clocks:
+Finally, for those who like all-in-one files, standalone versions are now available.
+All the needed scripts are embedded in single SVG files. Those are all you'll need to
+have running interactive clocks:
 
-- [YA_SVG_JS_C_Standalone.svg](./standalone/YA_SVG_JS_C_Standalone.svg)  
-- [YA_SVG_JS_C_SL_Standalone.svg](./standalone/YA_SVG_JS_C_SL_Standalone.svg)  
+- [YA_SVG_JS_C_Standalone.svg](./standalone/YA_SVG_JS_C_Standalone.svg)<br>
+- [YA_SVG_JS_C_SL_Standalone.svg](./standalone/YA_SVG_JS_C_SL_Standalone.svg)<br>
 - [YA_SVG_JS_C_SD_Standalone.svg](./standalone/YA_SVG_JS_C_SD_Standalone.svg)
 
 ### History
 ---
-- 04.10.2017: Initial Design.
-
-- 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock, leading to potential copyright issues).
-
-- 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title 'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the latest **Math.js** version. **Solarized-theme** versions introduced. Define separate options files for different dynamics. Modify SVG dimensions to % unit and add the viewbox property in order to allow re-scalable
-svg (with active script) in html. Migration to **GitHub**.
+- 21.05.2021: Update **Math.js**.
 
 - 11.11.2019: Provide standalone files, automatically generated by a Python script.
 
-Old version website:  
+- 28.10.2019: Small Design Tweak (centering of the 'SWISS MADE' seal, correct artwork title
+  'JavaScript' with a capital S). Typos corrected in the engine script and adaptation to the
+  latest **Math.js** version. **Solarized-theme** versions introduced. Define separate options
+  files for different dynamics. Modify SVG dimensions to % unit and add the viewbox property in
+  order to allow re-scalable svg (with active script) in html. Migration to **GitHub**.
+
+- 06.10.2017: Design Update (the initial version was identical to the **SBB CFF FFS** clock,
+  leading to potential copyright issues).
+
+- 04.10.2017: Initial Design.
+
+Old version website:<br>
 [https://inkscape.org/en/~fabien.fellay/★yet-another-svgjavascript-clock](https://inkscape.org/~fabien.fellay/%E2%98%85yet-another-svgjavascript-clock)
 
 ---
-*Copyright &copy; 2017-2019 Fabien Fellay.*
+*Copyright &copy; 2017-2021 Fabien Fellay.*
 
-The script [engine_script.js](./modular/engine_script.js) along with its parameters files [options_continuous.js](./modular/options_continuous.js) and [options_stepping.js](./modular/options_stepping.js) are licensed under the GNU General Public License version 3 (GPL-3.0).  
-<https://opensource.org/licenses/GPL-3.0>  
+The script [engine_script.js](./modular/engine_script.js) along with its parameters files
+[options_continuous.js](./modular/options_continuous.js) and
+[options_stepping.js](./modular/options_stepping.js) are licensed under the
+GNU General Public License version 3 (GPL-3.0).<br>
+<https://opensource.org/licenses/GPL-3.0><br>
 <https://www.gnu.org/licenses/>
 
-The SVG artworks are licensed under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).  
+The SVG artworks are licensed under the Creative Commons Attribution-ShareAlike 4.0 International
+(CC BY-SA 4.0).<br>
 <https://creativecommons.org/licenses/by-sa/4.0/>
 
-The math.js library is licensed under the Apache License 2.0.  
+The math.js library is licensed under the Apache License 2.0.<br>
 <https://www.apache.org/licenses/>
